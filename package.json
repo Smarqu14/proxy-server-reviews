@@ -4,7 +4,8 @@
   "description": "Showing all 3 modules at the same time",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon server/index.js && open http://localhost:3003"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/9-space-lobster/alex-proxy-server/issues"
   },
-  "homepage": "https://github.com/9-space-lobster/alex-proxy-server#readme"
+  "homepage": "https://github.com/9-space-lobster/alex-proxy-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3"
+  }
 }
