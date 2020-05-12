@@ -1,0 +1,22 @@
+{
+  "name": "alex-proxy-server",
+  "version": "1.0.0",
+  "description": "Showing all 3 modules at the same time",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9-space-lobster/alex-proxy-server.git"
+  },
+  "keywords": [
+    "fec"
+  ],
+  "author": "alexzhaohong <alexhong96@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9-space-lobster/alex-proxy-server/issues"
+  },
+  "homepage": "https://github.com/9-space-lobster/alex-proxy-server#readme"
+}
