@@ -7,6 +7,6 @@ const PORT = process.env.PROXY_PORT || 3000;
 
 app.use(cors())
 
-app.use(express.static('./client'));
+app.use(express.static('./'));
 
 app.listen(PORT); 
